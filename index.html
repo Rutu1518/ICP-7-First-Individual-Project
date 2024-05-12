@@ -15,8 +15,8 @@
 
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary" style="  font-family: Poetsen One, sans-serif;
-  font-weight: 400; font-style: normal;font-size: 30px;">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" style="font-family: Poetsen One, sans-serif;
+  font-weight: 400; font-style: normal;font-size:30px; position:fixed">
 
     <div class="container-fluid">
       <a class="navbar-brand" href="#"></a>
@@ -26,20 +26,22 @@
       <div class="collapse navbar-collapse p-4 " id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item ms-5">
-            <a class="nav-link active " aria-current="page" href="#">Home</a>
+            <a class="nav-link active " aria-current="page" href="#" style="margin-left:300px;">Home</a>
           </li>
          
           <!-- <li class="nav-item">
             <a class="nav-link" active href="#">Link</a>
           </li> -->
           <li class="nav-item dropdown ms-5">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
               Plants
             </a>
             <ul class="dropdown-menu ">
-              <li><a class="dropdown-item" href="#">Indoor Plants</a></li>
-              <li><a class="dropdown-item" href="#">Flowering plants</a></li>            
-              <li><a class="dropdown-item" href="#">Outdoor Plants</a></li>
+              <li><a class="dropdown-item" href="./Pages/indoor.html">Indoor Plants</a></li>
+                      
+              <li><a class="dropdown-item" href="./Pages/outdoor.html">Outdoor Plants</a></li>
+
+              <li><a class="dropdown-item" href="./Pages/flower.html">Flower plants</a></li>   
             </ul>
           </li>
 
@@ -75,96 +77,104 @@
   </nav>
 
   <div>
-    <img src="./images/index-img/first-img.webp" alt="first image" width="100%" height="300px" class="mt-5">
+    <img class="first-img" src="./images/index-img/first-img.webp" alt="first image" class="mt-5 img-fluid">
 
 
           
     <div class="firstcontainer ms-4">
 
       <div class="seventh_container  product_conatiner">
-        <span class="use_of_product">Gently Used 70%</span>
-        <img src="./images/index img/empty.png" class="Like_symbol" id="Like-img6" onclick="toggleheart6('Full')" />
+        <span class="use_of_product">Sale 70%</span>
+        <img src="./logo/empty.png" class="Like_symbol" id="Like-img1" onclick="toggleheart1('Full')" />
         <img class="Book_image_card" src="./images/index-img/aglaonema.webp">
-        <p class="book_name">Aglaonema Beauty Plant</p>
-       
+        <p class="book_name">Aglaonema Plant</p>
+
+        <div class="rating-star">
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+        </div>
+
+        
         <p class="book_price"><del class="del_price">Rs.599</del> Rs.259</p>
         <div class="rating_section">
           <a href="./pages/add-cart.html" class="text-decoration-none">
           <button class="add_to_cart">Add to cart</button>
         </a>
-          <!-- <div class="rating-star">
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-          </div> -->
+      
           </a>
         </div>
       </div>
 
       <div class="eighth_container  product_conatiner">
-        <span class="use_of_product">Gently Used 76%</span>
-        <img src="./images/index img/empty.png" class="Like_symbol" id="Like-img7" onclick="toggleheart7('Full')" />
+        <span class="use_of_product">Sale 76%</span>
+        <img src="./logo/empty.png" class="Like_symbol" id="Like-img2" onclick="toggleheart2('Full')" />
         <img class="Book_image_card" src="./images/index-img/arecapalm.webp">
         <p class="book_name">Areca Palm Plant</p>
+
+        <div class="rating-star">
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/blank star.png" class="rating-star-icon" />
+        </div>
         
         <p class="book_price"><del class="del_price">Rs.599</del> Rs.280</p>
         <div class="rating_section">
           <a href="./pages/add-cart.html" class="text-decoration-none">
           <button class="add_to_cart">Add to cart</button>
         </a>
-          <!-- <div class="rating-star">
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/blank star.png" class="rating-star-icon" />
-          </div> -->
+       
           </a>
         </div>
       </div>
 
       <div class="ninth_container  product_conatiner">
-        <span class="use_of_product">Gently Used 91%</span>
-        <img src="./images/index img/empty.png" class="Like_symbol" id="Like-img8" onclick="toggleheart8('Full')" />
+        <span class="use_of_product">Sale 91%</span>
+        <img src="./logo/empty.png" class="Like_symbol" id="Like-img3" onclick="toggleheart3('Full')" />
         <img class="Book_image_card" src="./images/index-img/brokenheart.webp">
         <p class="book_name">Broken Heart Plant</p>
+
+        <div class="rating-star">
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/blank star.png" class="rating-star-icon" />
+        </div>
      
         <p class="book_price"><del class="del_price">Rs.599</del> Rs.299</p>
         <div class="rating_section">
           <a href="./pages/add-cart.html" class="text-decoration-none">
           <button class="add_to_cart">Add to cart</button></a>
 
-          <!-- <div class="rating-star">
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/blank star.png" class="rating-star-icon" />
-          </div> -->
+        
           </a>
         </div>
       </div>
 
       <div class="ninth_container  product_conatiner">
-        <span class="use_of_product">Gently Used 91%</span>
-        <img src="./images/index img/empty.png" class="Like_symbol" id="Like-img8" onclick="toggleheart8('Full')" />
+        <span class="use_of_product">Sale 91%</span>
+        <img src="./logo/empty.png" class="Like_symbol" id="Like-img4" onclick="toggleheart4('Full')" />
         <img class="Book_image_card" src="./images/index-img/combopalm.webp">
         <p class="book_name">Bamboo Palm Plant</p>
+        <div class="rating-star">
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/blank star.png" class="rating-star-icon" />
+        </div>
     
         <p class="book_price"><del class="del_price">Rs.599</del> Rs.299</p>
         <div class="rating_section">
           <a href="./pages/add-cart.html" class="text-decoration-none">
           <button class="add_to_cart">Add to cart</button></a>
 
-          <!-- <div class="rating-star">
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/blank star.png" class="rating-star-icon" />
-          </div> -->
+        
           </a>
         </div>
       </div>
@@ -176,89 +186,97 @@
       <div class="container2 ms-4">
 
       <div class="seventh_container  product_conatiner">
-        <span class="use_of_product">Gently Used 70%</span>
-        <img src="./images/index img/empty.png" class="Like_symbol" id="Like-img6" onclick="toggleheart6('Full')" />
+        <span class="use_of_product">Sale 70%</span>
+        <img src="./logo/empty.png" class="Like_symbol" id="Like-img5" onclick="toggleheart5('Full')" />
         <img class="Book_image_card" src="./images/index-img/homalomena.webp">
         <p class="book_name">Homalomena Plant</p>
+
+        <div class="rating-star">
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+        </div>
    
         <p class="book_price"><del class="del_price">Rs.599</del> Rs.259</p>
         <div class="rating_section">
           <a href="./pages/add-cart.html" class="text-decoration-none">
           <button class="add_to_cart">Add to cart</button>
         </a>
-          <!-- <div class="rating-star">
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-          </div> -->
+         
           </a>
         </div>
       </div>
 
       <div class="eighth_container  product_conatiner">
-        <span class="use_of_product">Gently Used 76%</span>
-        <img src="./images/index img/empty.png" class="Like_symbol" id="Like-img7" onclick="toggleheart7('Full')" />
+        <span class="use_of_product">Sale 76%</span>
+        <img src="./logo/empty.png" class="Like_symbol" id="Like-img6" onclick="toggleheart6('Full')" />
         <img class="Book_image_card" src="./images/index-img/jadeplant.webp">
         <p class="book_name">Jade Plant Mini</p>
+
+        <div class="rating-star">
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/blank star.png" class="rating-star-icon" />
+        </div>
       
         <p class="book_price"><del class="del_price">Rs.599</del> Rs.280</p>
         <div class="rating_section">
           <a href="./pages/add-cart.html" class="text-decoration-none">
           <button class="add_to_cart">Add to cart</button>
         </a>
-          <!-- <div class="rating-star">
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/blank star.png" class="rating-star-icon" />
-          </div> -->
+       
           </a>
         </div>
       </div>
 
       <div class="ninth_container  product_conatiner">
-        <span class="use_of_product">Gently Used 91%</span>
-        <img src="./images/index img/empty.png" class="Like_symbol" id="Like-img8" onclick="toggleheart8('Full')" />
+        <span class="use_of_product">Sale 91%</span>
+        <img src="./logo/empty.png" class="Like_symbol" id="Like-img7" onclick="toggleheart7('Full')" />
         <img class="Book_image_card" src="./images/index-img/Luckybamboo.webp">
         <p class="book_name">Luckey Bamboo Plant</p>
+
+        <div class="rating-star">
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/blank star.png" class="rating-star-icon" />
+        </div>
        
         <p class="book_price"><del class="del_price">Rs.599</del> Rs.299</p>
         <div class="rating_section">
           <a href="./pages/add-cart.html" class="text-decoration-none">
           <button class="add_to_cart">Add to cart</button></a>
 
-          <!-- <div class="rating-star">
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/blank star.png" class="rating-star-icon" />
-          </div> -->
+       
           </a>
         </div>
       </div>
 
       <div class="ninth_container  product_conatiner">
-        <span class="use_of_product">Gently Used 91%</span>
-        <img src="./images/index img/empty.png" class="Like_symbol" id="Like-img8" onclick="toggleheart8('Full')" />
+        <span class="use_of_product">Sale 91%</span>
+        <img src="./logo/empty.png" class="Like_symbol" id="Like-img8" onclick="toggleheart8('Full')" />
         <img class="Book_image_card" src="./images/index-img/moneyplant.webp">
         <p class="book_name">Money Plant</p>
+
+        <div class="rating-star">
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/blank star.png" class="rating-star-icon" />
+        </div> 
       
         <p class="book_price"><del class="del_price">Rs.599</del> Rs.299</p>
         <div class="rating_section">
           <a href="./pages/add-cart.html" class="text-decoration-none">
           <button class="add_to_cart">Add to cart</button></a>
 
-          <!-- <div class="rating-star">
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/blank star.png" class="rating-star-icon" />
-          </div> -->
+         
           </a>
         </div>
       </div>
@@ -271,61 +289,65 @@
 
       
       <div class="ninth_container  product_conatiner">
-        <span class="use_of_product">Gently Used 91%</span>
-        <img src="./images/index img/empty.png" class="Like_symbol" id="Like-img8" onclick="toggleheart8('Full')" />
+        <span class="use_of_product">Sale 91%</span>
+        <img src="./logo/empty.png" class="Like_symbol" id="Like-img9" onclick="toggleheart9('Full')" />
         <img class="Book_image_card" src="./images/index-img/monstera.webp">
         <p class="book_name">Monstera Deliciosa</p>
+
+            <div class="rating-star">
+            <img src="./logo/yellow star.png" class="rating-star-icon" />
+            <img src="./logo/yellow star.png" class="rating-star-icon" />
+            <img src="./logo/yellow star.png" class="rating-star-icon" />
+            <img src="./logo/yellow star.png" class="rating-star-icon" />
+            <img src="./logo/blank star.png" class="rating-star-icon" />
+          </div>
 
         <p class="book_price"><del class="del_price">Rs.599</del> Rs.299</p>
         <div class="rating_section">
           <a href="./pages/add-cart.html" class="text-decoration-none">
           <button class="add_to_cart">Add to cart</button></a>
 
-          <!-- <div class="rating-star">
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/blank star.png" class="rating-star-icon" />
-          </div> -->
+      
           </a>
         </div>
       </div> 
 
       <div class="ninth_container  product_conatiner">
-        <span class="use_of_product">Gently Used 91%</span>
-        <img src="./images/index img/empty.png" class="Like_symbol" id="Like-img8" onclick="toggleheart8('Full')" />
+        <span class="use_of_product">Sale 91%</span>
+        <img src="./logo/empty.png" class="Like_symbol" id="Like-img10" onclick="toggleheart10('Full')" />
         <img class="Book_image_card" src="./images/index-img/peacelily.webp">
         <p class="book_name">Peace Lily Plant</p>
+
+        <div class="rating-star">
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/blank star.png" class="rating-star-icon" />
+        </div>
        
         <p class="book_price"><del class="del_price">Rs.599</del> Rs.299</p>
         <div class="rating_section">
           <a href="./pages/add-cart.html" class="text-decoration-none">
           <button class="add_to_cart">Add to cart</button></a>
 
-          <!-- <div class="rating-star">
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-            <img src="./images/index img/blank star.png" class="rating-star-icon" />
-          </div> -->
+      
           </a>
         </div>
       </div>
 
       <div class="ninth_container  product_conatiner">
-        <span class="use_of_product">Gently Used 91%</span>
-        <img src="./images/index img/empty.png" class="Like_symbol" id="Like-img8" onclick="toggleheart8('Full')" />
+        <span class="use_of_product">Sale 91%</span>
+        <img src="./logo/empty.png" class="Like_symbol" id="Like-img11" onclick="toggleheart11('Full')" />
         <img class="Book_image_card" src="./images/index-img/syngonium.webp">
         <p class="book_name">Syngonium Pink Plant</p>
         
         <div class="rating-star">
-          <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-          <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-          <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-          <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-          <img src="./images/index img/blank star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/blank star.png" class="rating-star-icon" />
         </div> 
  
         <p class="book_price"><del class="del_price">Rs.599</del> Rs.299</p>
@@ -338,19 +360,19 @@
       </div> 
 
       <div class="ninth_container  product_conatiner">
-        <span class="use_of_product">Gently Used 91%</span>
-        <img src="./images/index img/empty.png" class="Like_symbol" id="Like-img8" onclick="toggleheart8('Full')" />
+        <span class="use_of_product">Sale 91%</span>
+        <img src="./logo/empty.png" class="Like_symbol" id="Like-img12" onclick="toggleheart12('Full')" />
         <img class="Book_image_card" src="./images/index-img/zzplant.webp">
         <p class="book_name">ZZ Plant</p>
         <div class="rating-star">
-          <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-          <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-          <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-          <img src="./images/index img/yellow star.png" class="rating-star-icon" />
-          <img src="./images/index img/blank star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/yellow star.png" class="rating-star-icon" />
+          <img src="./logo/blank star.png" class="rating-star-icon" />
         </div>
       
-        <p class="book_price"><del class="del_price">Rs.599</del> Rs.299</p>
+        <p class="book_price"><del class="del_price">Rs.599</del>  Rs.299</p>
         <div class="rating_section">
           <a href="./pages/add-cart.html" class="text-decoration-none">
           <button class="add_to_cart">Add to cart</button></a>
@@ -391,7 +413,7 @@
 
  
 
-  
+  <script src="./js/index.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
