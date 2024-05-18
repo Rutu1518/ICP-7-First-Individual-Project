@@ -1,4 +1,26 @@
 
+
+/* .active{
+    border: solid black 1px;
+    background-color: white;
+
+} */
+
+ .body-dark{
+
+    background-color: black;
+    color: white;
+ }
+
+ .body-light{
+
+  background-color: white;
+  color: black;
+}
+
+
+
+
 .firstcontainer{
    
     display:flex;
@@ -59,8 +81,7 @@
     height: 40px;
     padding-left: 10px;
     padding-right: 20px;
-    margin-right: 20px;
-  
+    margin-right: 20px;  
     margin-top: -10px;   
 } 
 .Like_symbol{
