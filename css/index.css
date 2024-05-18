@@ -1,10 +1,11 @@
 
 
-/* .active{
+.active{
     border: solid black 1px;
     background-color: white;
 
-} */
+}
+
 
  .body-dark{
 
@@ -141,4 +142,8 @@
     border: none;
     color: white;
     margin-bottom: 10px;
+}
+
+.pink{
+    color: pink;
 }
