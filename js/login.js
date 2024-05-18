@@ -2,9 +2,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     event.preventDefault();
     let name = document.getElementById('name').value;
     let email = document.getElementById('email').value;
-    let subject = document.getElementById('subject').value;
-    let message = document.getElementById('message').value;
-
+   
     // You can add further validation here
 
     // Example: Check if name is not empty
@@ -21,19 +19,11 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     }
 
     // Example: Check if message is not empty
-    if (!subject.trim()) {
-        alert('Please enter your subject.');
-        return;
-    }
-    if (!message.trim()) {
-        alert('Please enter your message.');
-        return;
-    }
+   
 
     // If all validations pass, you can submit the form or perform further actions here
    
 });
-
 function add(){
     alert('Form submitted successfully!')
 }
