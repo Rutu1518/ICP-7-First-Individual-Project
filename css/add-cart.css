@@ -1,0 +1,32 @@
+.add-cart{
+    margin-top: 220px;
+}
+
+.cart {
+    background-color: #fff;
+    font-family:"Poetsen One", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+.img-book {
+    height: 250px;
+}
+
+.quantity-container {
+    width: 100px;
+}
+
+.quantity {
+    font-size: 23px;
+}
+
+.quantity-img {
+    width: 28px;
+    cursor: pointer;
+}
+
+.amount {
+    font-size: 18px;
+}

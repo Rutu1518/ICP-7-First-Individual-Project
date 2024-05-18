@@ -20,6 +20,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.fix-nav{
+  position: fixed;  
+  z-index: 1000;
+}
 
 .form-container {
   position: relative;
@@ -37,12 +41,12 @@ body {
 }
 
 .signup-container {
-  margin-top: 300px;
+  margin-top: 200px;
   width: 80%;
 }
 
 .login-container {
-  margin-top: 150px;
+  margin-top: 200px;
   width: 60%;
   height: 80vh;
 }

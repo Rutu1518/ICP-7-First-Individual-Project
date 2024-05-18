@@ -82,11 +82,11 @@ function toggleheart2(state){
         heartElement.src ='./logo/heart.png';
     }         
 
-    else if (state == 'Full')
-    {
+    // else if (state == 'Full')
+    // {
         
-        heartElement.src ='./logo/empty.png';
-    }         
+    //     heartElement.src ='./logo/empty.png';
+    // }         
     
 }  
 

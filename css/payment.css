@@ -18,6 +18,10 @@ body {
   font-weight: 300;
   font-style: normal;
 }
+.fix-nav{
+  position: fixed;  
+  z-index: 1000;
+}
 
 .payment-panel {
   display: flex;

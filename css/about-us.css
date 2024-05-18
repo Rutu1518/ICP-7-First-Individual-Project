@@ -6,7 +6,7 @@
 
 
 
-.banner1{
+.first-img{
   width: 100%;
   margin-top: 200px;
 }
@@ -19,7 +19,7 @@
 .container1{
     margin-top: 100px;
     display: flex;
-    margin-left: 100px;
+    margin-left: 20px;
     margin-bottom: 100px;
     font-family:"Poetsen One", sans-serif;
     font-weight: 300;
@@ -27,7 +27,27 @@
     font-size: 20px;
 
 }
-.container2{
+
+
+.text1{
+    width: 500px;
+    margin-top: -52%;
+    margin-left: 60%; 
+   }
+
+ .para-heading1{
+     font-size: 50px;
+     /* margin-left: 50%; */
+     text-align: start;
+ }
+
+ .para-text1{
+     font-size: 25px;
+   
+     /* margin-left: 100px; */
+ }
+
+ .container2{
     display:flex;
     margin-top: 200px;
     margin-left: 55%;  
@@ -38,41 +58,28 @@
   
 }
 
-.text1{
-    width: 500px;
-    margin-top: -41%;
-    margin-left: 50%;
-  
- }
- .para-heading1{
-     font-size: 45px;
-     /* margin-left: 50%; */
-     text-align: start;
- }
- .para-text1{
-     font-size: 30px;
-   
-     /* margin-left: 100px; */
- }
-.text2{
-   width: 500px;
-   margin-top: -40%;
-   font-family:"Poetsen One", sans-serif;
-   font-weight: 300;
-   font-style: normal;
-}
-.para-heading2{
+ .para-heading2{
     font-size: 45px;
     margin-left: 40%;
     text-align: start;
 }
+
+.text2{
+   margin-left: -50px;
+   width: 600px;
+   margin-top: -42%;
+   font-family:"Poetsen One", sans-serif;
+   font-weight: 300;
+   font-style: normal;
+}
+
 .para-text2{
-    font-size: 30px;  
+    font-size: 25px;  
     margin-left: 150px;
 }
 .about-Quote{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 150px;
     font-family:"Poetsen One", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -84,7 +91,7 @@
    
 }
 .about-Quote p{   
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 50px;
     /* color: #149253; */
 
@@ -95,6 +102,7 @@
     font-family:"Poetsen One", sans-serif;
     font-weight: 300;
     font-style: normal;
+    margin-left: 20px;
     
 }
 .response-of-people span{
@@ -104,7 +112,7 @@
     color: #149253;
 }
 .response{
-    width: 300px;
+    width: 100%;
     padding: 100px;
     margin-left: 5px;
     font-size: 25px;
@@ -144,8 +152,8 @@
 }
 .card1 {
     border:none;
-    height: 200px;
-    width: 330px;
+    height: 250px;
+    width: 380px;
     background-color:rgb(245, 243, 243); 
     padding: 30px;
     margin: 15px;
@@ -170,7 +178,7 @@
 
  
 .our-services{
-    font-size: 25px;  
+   font-size: 25px;  
    text-align: center;
  
 
@@ -182,4 +190,56 @@
     margin-top: -10px;
     
     /* color: rgb(0, 0, 0); */
+}
+
+.branch-container{
+    margin-left: 20%;
+    margin-top: 80px;
+}
+
+.branch-container p{
+  margin-left:25%;
+  font-size: 50px;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+   font-style: normal;
+}
+
+
+.branch-img{
+    width: 700px;
+    height: 400px;
+    border: black;
+    margin-top: 40px;
+}
+
+
+.btn-toggle {
+    /* margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 45%; */
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    width: 200px;
+    cursor: pointer;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+     font-style: normal;
+     font-size:20px;
+    background-color: #149253;
+   /* margin-left: 10px; */
+     margin: 15px;
+     margin-top: 20px;
+    
+
+    
+}
+
+.btn-toggle:hover{
+    transform: scale(0.9);
+    /* transition: 0.5s; */
+    transition: 1s ease-in;
+    cursor: pointer;
 }
